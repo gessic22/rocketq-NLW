@@ -1,0 +1,25 @@
+{
+  "name": "rocketq-NLW",
+  "version": "1.0.0",
+  "description": "Projeto desenvolvido para gerenciar perguntas anonimas de usuários direcionada ao dono da pagina",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gessic22/rocketq-NLW.git"
+  },
+  "keywords": [],
+  "author": "Gessica Xavier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gessic22/rocketq-NLW/issues"
+  },
+  "homepage": "https://github.com/gessic22/rocketq-NLW#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12"
+  }
+}

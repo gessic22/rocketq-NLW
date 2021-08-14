@@ -21,16 +21,16 @@
     <div id="room" class="content"> 
       <header>
         <a href="#">
-          <img src="assets/logo.svg" alt="Roquet.Q Logo"/>
+          <img src="images/logo.svg" alt="Roquet.Q Logo"/>
         </a>
 
         <div class="buttons">
           <div class="button outlined">
             #323243
-            <img src="assets/copy.svg" alt="Copiar numero da sala"/>
+            <img src="images/copy.svg" alt="Copiar numero da sala"/>
           </div>
           <a href="#"class="button">
-            <img src="assets/users-white.svg" alt="Criar uma sala">
+            <img src="images/users-white.svg" alt="Criar uma sala">
             Criar sala
           </a>
         </div>
@@ -40,12 +40,12 @@
         <section id="question-form">
           <h2>Faça sua pergunta</h2>
           <form action="">
-            <label class="sr-only">O que você quer perguntar?</label>
+            <label class="sr-only" for-id="question">O que você quer perguntar?</label>
             <textarea name="question" id="question" placeholder="O que você quer perguntar?"></textarea>
 
             <footer>
               <div>
-                <img src="assets/lock.svg" alt="Cadeado"/>
+                <img src="images/lock.svg" alt="Cadeado"/>
                 Esta pergunta é anônima
               </div>
               <button>Enviar</button>
@@ -59,19 +59,19 @@
             <div class="question-wrapper">
               <div class="question-content">
                 <div class="user">
-                  <img src="assets/user.svg" alt="avatar">
+                  <img src="images/user.svg" alt="avatar">
                 </div>
                 <div class="question">
                   <p>Qual a diferença entre const, var e let no JavaScript?</p>
                 </div>
               </div>
               <div class="actions">
-                <a href="#">
-                  <img src="assets/check.svg" alt="Marcar como lida">
+                <a href="#" class="check">
+                  <img src="images/check.svg" alt="Marcar como lida">
                   Marcar como lida
                 </a>
                 <a href="#" class="delete">
-                  <img src="assets/trash.svg" alt="Excluir">
+                  <img src="images/trash.svg" alt="Excluir">
                   Excluir
                 </a>
               </div>
@@ -80,19 +80,19 @@
             <div class="question-wrapper">
               <div class="question-content">
                 <div class="user">
-                  <img src="assets/user.svg" alt="avatar">
+                  <img src="images/user.svg" alt="avatar">
                 </div>
                 <div class="question">
                   <p>O que é JavaScript?</p>
                 </div>
               </div>
               <div class="actions">
-                <a href="#">
-                  <img src="assets/check.svg" alt="Marcar como lida">
+                <a href="#" class="check">
+                  <img src="images/check.svg" onclick = "modal.open()" alt="Marcar como lida">
                   Marcar como lida
                 </a>
                 <a href="#" class="delete">
-                  <img src="assets/trash.svg" alt="Excluir">
+                  <img src="images/trash.svg" alt="Excluir">
                   Excluir
                 </a>
               </div>
@@ -101,16 +101,15 @@
             <div class="question-wrapper read">
               <div class="question-content">
                 <div class="user">
-                  <img src="assets/user.svg" alt="avatar">
+                  <img src="images/user.svg" alt="avatar">
                 </div>
                 <div class="question">
                   <p>O que é TypeScript?</p>
                 </div>
               </div>
               <div class="actions">
-
                 <a href="#" class="delete">
-                  <img src="assets/trash.svg" alt="Excluir">
+                  <img src="images/trash.svg" alt="Excluir">
                   Excluir
                 </a>
               </div>
@@ -118,8 +117,11 @@
           </div>
 
         </section>
+
       </main>
+
     </div>
+
     <!-----------MODAL------------------>
     <div class="modal-wrapper">
       <div class="modal">
@@ -131,12 +133,17 @@
           <input type="password" id="password" name="password" placeholder="Digite sua senha">
 
           <div class="buttons">
-            <div class="button grey">Cancelar</div>
+            <div class="button grey cancel">Cancelar</div>
             <button class="red">Sim,excluir</button>
           </div>
         </form>
       </div>
     </div>
 
+    <!----------SCRIPT--------->
+    <script src="../../public/scripts/main.js" defer type="module"></script>
   </body>
 </html>
+
+
+      
